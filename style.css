@@ -1,0 +1,85 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+/*Tạo css cho header*/
+header{
+    background-color: rgb(125, 246, 147);
+    color: #ed0d0d;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+nav ul {list-style: none;
+display: flex;
+justify-content: space-between;font-weight: bold;
+}
+nav li{margin-right: 20px;}
+nav li:hover{background-color: orangered;
+padding: 10px;}
+.logo{width: 50px; height: 40px;}
+nav a{
+    color: #060505;
+    text-decoration: none;
+}
+h1{margin: 20px 15px 10px 0;
+text-align: center;
+text-transform: uppercase;
+font-size: 40px;}
+main{padding: 50px;
+background-color: rgb(255, 255, 255);}
+.TAYBAC{
+display:flex;
+
+justify-content: space-between;
+}
+.noidung{
+    padding: 20px;
+    width: 100%;
+}
+.section{margin-right: 50px;}
+.section p,h2,h3{text-align: center;}
+.section h2{margin: 0 0 20px;}
+.taybac{display: flex;
+flex-wrap: wrap;
+justify-content: space-between ;}
+.anh{width: 250px; height: 300px;}
+.taybac{width: calc(33.33%-20px);
+margin-bottom: 50px;
+text-align: center;}
+.taybac img{
+margin-bottom: 20px;
+border: 2px solid #d30606;
+border: 10px;}
+.taybac h3{margin: 0;}
+.taybac p{margin: 10px 0;}
+.taybac button{background-color: #3333;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+/*Tạo css cho Form*/
+section form{
+    margin-left: 35%;
+}
+section form input{
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+}
+#email{
+    margin-left: 74px;
+}
+#message{margin-left: 52px;}
+section form button{margin-left: 20px;
+width: 50px;
+height: 25px;
+margin-left: 370px;}
+/*Tạo CSS cho Footer*/
+footer{background-color: orangered;
+color:#fff;
+padding: 20px;
+font-size: 30px;
+text-align: center;}
